@@ -1,5 +1,5 @@
 import { Grid, GridItem, Box } from '@chakra-ui/react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function NavBar() {
     return (
