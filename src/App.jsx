@@ -5,7 +5,6 @@ import TrendingPage from './pages/trending';
 import RandomPage from './pages/random';
 import SearchPage from './pages/search';
 
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -13,7 +12,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "trending",
-        element: <TrendingPage />
+        element: <TrendingPage />,
       },
       {
         path: "random",
